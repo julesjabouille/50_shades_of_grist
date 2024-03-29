@@ -1,4 +1,6 @@
 # Documentize Widget for Grist
+Everything here is a copy and adapt from the fantastic https://tomnitschke.github.io/gristwidgets/documentize
+
 This is a widget for [Grist](https://www.getgrist.com) that turns HTML or Markdown text into a DOCX or PDF document and then offers it up for download.
 
 To use, add a custom widget and set its URL to `https://tomnitschke.github.io/gristwidgets/documentize`.  
