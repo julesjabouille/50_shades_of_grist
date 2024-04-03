@@ -1,4 +1,7 @@
 # Autoaction Widget for Grist
+Everything here is a copy and adapt from the fantastic https://tomnitschke.github.io/gristwidgets/documentize
+
+
 
 This is a [Grist](https://www.getgrist.com) widget that allows you to run custom "user actions" every time your Grist page gets reloaded or a new record gets selected.
 In other words, it's like an [action button](https://github.com/gristlabs/grist-widget/tree/master/actionbutton) that clicks itself! It should come in handy when you
