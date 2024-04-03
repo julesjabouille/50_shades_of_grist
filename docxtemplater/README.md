@@ -1,4 +1,6 @@
 # Grist docxtemplater widget
+Everything here is a copy and adapt from the fantastic https://tomnitschke.github.io/gristwidgets/docxtemplater
+
 _Based on and expanded from https://github.com/stan-donarise/grist-docxtemplater-widget. Thanks, Stan!_
 
 This integrates [docxtemplater](https://docxtemplater.com/) with [Grist](https://www.getgrist.com/).  
