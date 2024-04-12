@@ -169,7 +169,7 @@ async function gristRecordSelected(record, mappedColNamesToRealColNames) {
     console.log(`docxtemplater: Output file name set to: '${currentData.outputFileName}'`);
     // Now we have all the data nicely validated and present in currentData,
     // all that's left to do is to display a ready message and the 'process' button.
-    setStatusMessage("Ready. Click 'Process' to generate the document.");
+    setStatusMessage("Votre document est prêt. Cliquez ci-dessus pour le générer.");
   } catch (err) {
     return handleError(err);
   }
@@ -264,7 +264,7 @@ function processFile(url, data, outputFileName) {
         // Render the document.
         templater.renderAsync(data).then(function() {
           // When done, offer the final document for download.
-          setStatusMessage("Document ready for download.");
+          setStatusMessage("Document prêt à être téléchargé.");
           saveAs(templater.getZip().generate({
             type: "blob",
             mimeType: "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
